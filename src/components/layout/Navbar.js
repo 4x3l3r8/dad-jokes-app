@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           Dad Jokes App
         </a>
         <button
@@ -21,7 +21,7 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/about">
                 About <span className="sr-only">(current)</span>
               </a>
             </li>
